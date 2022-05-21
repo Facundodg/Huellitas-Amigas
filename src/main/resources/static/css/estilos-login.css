@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+html,body{
+    background-image: url('https://getwallpapers.com/wallpaper/full/6/1/2/300597.jpg');
+    /* background: "img/DSC_2732.jpg"; */
+    /* background-image: url('../img/DSC_2732.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family:"Raleway", "Poppins",sans-serif;
+    }
+    
+    h1 {
+    align-items: center !important;
+    justify-content: center !important;    
+    color: white;
+    }
+    .seccion{ 
+    align-items: center !important;
+    justify-content: center !important;
+    
+    } 
+
+    .container{
+    align-content: center;
+    background-color: rgba(227, 216, 216, 0.53) !important;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 10px ;
+      
+    }
+    
+    .card{
+    height: 270px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(227, 216, 216, 0.53) !important;
+    }
+    
+    .btn-primary {
+        color: #fff;
+        background-color: #F36A6E !important;
+        border-color: #F36A6E !important;
+    }
+    
+    .form-label {
+        margin-bottom: 0.5rem;
+        color: #19535f !important;
+    }
+    
+    legend {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 0.5rem;
+        font-size: calc(1.275rem + .3vw);
+        line-height: inherit;
+        color:white ;
+    }

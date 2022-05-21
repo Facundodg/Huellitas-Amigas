@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+html,body{
+background-image: url('https://getwallpapers.com/wallpaper/full/6/1/2/300597.jpg');
+/* background: "img/DSC_2732.jpg"; */
+/* background-image: url('../img/DSC_2732.jpg'); */
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family:"Raleway", "Poppins",sans-serif;
+}
+
+.seccion{ 
+align-items: center !important;
+justify-content: center !important;
+
+} 
+.container{
+height: 400px;
+align-content: center;
+background-color: rgba(227, 216, 216, 0.53) !important;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: 0.25rem;
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+margin-top: 0 auto ;
+  
+}
+
+.card{
+height: 270px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(227, 216, 216, 0.53) !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F36A6E !important;
+    border-color: #F36A6E !important;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    color: #19535f !important;
+}
+
+legend {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    font-size: calc(1.275rem + .3vw);
+    line-height: inherit;
+    color:white ;
+}
+
+/* .social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #f7a4a7;;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+} */
+
+/* .card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+ */
+.input-group-prepend span{
+/* width: 50px; */
+background-color: #f8d5c3;;
+color: black;
+border:0 !important;
+}
+
+/* input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #f8d5c3;;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: #19535f;
+}
+
+.links a{
+margin-left: 4px;
+}
+ */

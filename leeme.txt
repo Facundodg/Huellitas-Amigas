@@ -1,0 +1,11 @@
+-Recorda crear la db para arrancarlo (proyectoegg)
+
+-Para crear un usuario recorda ir a tu gestor de la bd 
+y poner en la tabla zona una ubicacion, asi a la hora
+registrar un usuario ya con la pagina en ejecucion.
+
+-A la hora de ingresar una publicacion recorda que no
+se vera a tiempo real la imagen, ya que la foto de la
+mascota se esta guardando en una carpeta del proyecto.
+
+REINICIA EL SERVIDOR PARA PODER VER LOS RESULTADOS!!!!

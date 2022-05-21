@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="/layouts/head :: head">
+        <title>Configuración de la cuenta</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </head>
+    <header th:replace="/layouts/header :: header"></header>
+    <body>
+        <!--Te importe los iconos de boostrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <!---------------------------------------------------------------------------------------------------------->
+
+
+        <h1 class= "text-center mb-3">Configuración de la cuenta</h1>
+        <div class= "container w-50 d-block border"> 
+            <div class="col-md-3 w-100 mb-3 mt-3">
+                <label for="inputName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" aria-label="First name">
+            </div>
+            <div class="col-md-3 w-100 mb-3" >
+                <label for="inputName2" class="form-label">Apellido</label>
+                <input type="text" class="form-control  disabled"  aria-label="Last name">
+            </div>
+            <div class="col-md-3 w-100">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-3 w-100">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-3 w-100 mb-3">
+                <label for="InputTel" class="form-label">Número de Teléfono</label>
+                <input type="tel" class="form-control" id="InputTel" placeholder="381-xxx-xxx">
+            </div>
+            <div class="col-md-3 w-100 mb-3">
+                <label for="InputZone" class="form-label">Zona</label>
+                <input type="text" class="form-control" id="InputTel" placeholder="San Miguel de Tucuman">
+            </div>
+        </div>
+        <!-- <h2 class= "text-center mb-3 mt-3">Mis Mascotas</h2>
+        <div class= "container w-75 d-block border">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Tipo De Animal</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Descripcion</th>
+                <th scope="col">Estado adopcion</th>
+                <th scope="col">Fecha de adopcion</th>
+                <th scope="col">Opciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td class="d-flex"><button type="button" class="btn btn-danger me-3">Eliminar</button>
+                  <button type="button" class="me-3 btn btn-success">Ocultar</button>
+                  <button type="button" class="me-3 btn btn-warning">Editar</button></td>         
+              </tr>
+              
+            </tbody>
+          </table>
+      
+        </div> -->
+    </body>
+    <footer th:replace="/layouts/footer :: footer"></footer>
+</html>
+

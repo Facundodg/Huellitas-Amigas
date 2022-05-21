@@ -1,0 +1,48 @@
+<header th:fragment="header" class="p-3 bg-white border">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a class="navbar-brand icono" th:href="@{/UserPanel}"><img th:src="@{/img/logo.png}" alt="icono"
+                                                                       width="128" /></a>
+
+            <ul class="nav col-18 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a th:href="@{/UserPanel}" class="nav-link px-2 texto-menu-var">Home</a></li>
+                <li>
+                    <a th:href="@{/mascota/publicar-mascota}" class="nav-link px-2 texto-menu-var">Nueva publicación</a>
+                </li>
+                <li>
+                    <a th:href="@{/}" class="nav-link px-2 texto-menu-var">Contacto</a>
+                </li>
+                <!-- decidir si CONTACTO queda o no y linkear bien si es que si queda justamente -->
+            </ul>
+
+            <div class="dropdown text-end">
+                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="mdo"
+                         width="32" height="32" class="rounded-circle" />
+                </a>
+
+                <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                    <li>
+                        <a class="dropdown-item" th:href="@{/usuario/editar}"
+                           style="text-align: center; height: 100%; width: 100%">Perfil</a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li class="dropdown-item">
+                        <form th:action="@{/logout}" method="POST">
+                            <input type="submit" value="Cerrar Sesión" style="
+                                   border: none;
+                                   background: #ffffff;
+                                   height: 100%;
+                                   width: 100%;
+                                   text-align: center;
+                                   " />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
